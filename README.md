@@ -12,6 +12,7 @@ You can obtain the executable file by downloading a release if you use a Linux s
 
 - [Download](https://github.com/DeamonPedro/jpq/releases/tag/stable) the latest stable version
 - Extract the zip file
+- [Install](#floppy_disk-install)
 
 ### :construction_worker: Build
 
@@ -38,6 +39,10 @@ Most used targets:
 | i686-pc-windows-gnu       | 32-bit MinGW (Windows 7+) 2             |
 | x86_64-apple-darwin       | 64-bit macOS (10.7+, Lion+)             |
 </code>
+
+and [Install](#floppy_disk-install)
+
+### :floppy_disk: Install
 
 With the executable file you can make it accessible to the shell by copying it to some folder of the environment variable $PATH, like `/sbin`, `/usr/sbin` or `/usr/local/bin`, as in the example:
 
@@ -97,7 +102,7 @@ Pretty output example:
 }
 ```
 
-## 📝 Licença
+## 📝 License
 
 MIT
 
