@@ -106,7 +106,7 @@ Pretty output example:
 
 - [jq](https://github.com/stedolan/jq) (made in C for JQ language)
 - [jfq](https://github.com/blgm/jfq) (made in JavaScript to JSONata)
-- [jql](https://github.com/yamafaktory/jql) (made in Rust to A JSON Query Language)
+- [jql](https://github.com/yamafaktory/jql) (made in Rust to JSON Query Language)
 
 ## :page_with_curl: License
 
