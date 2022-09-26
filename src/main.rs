@@ -12,7 +12,7 @@ struct Args {
     /// JSONPath selector
     #[clap(forbid_empty_values = true)]
     query: String,
-    /// Output in plain text
+    /// Force plain text output
     #[clap(short, long)]
     pain_text: bool,
 }
