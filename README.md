@@ -6,7 +6,7 @@
 
 ## :rocket: Installation
 
-You can obtain the executable file by downloading a release if you use a Linux system (x86_64 and i686) or by compiling the source code.
+You can obtain the executable file by downloading a release if you use a Linux system (`x86_64` and `i686`) or by compiling the source code.
 
 ### :arrow_down: Download
 
@@ -30,14 +30,14 @@ Most used targets:
 
 |           target          |                  notes                  |
 |:-------------------------:|:---------------------------------------:|
-| x86_64-unknown-linux-gnu  | 64-bit Linux (kernel 3.2+, glibc 2.17+) |
-| i686-unknown-linux-gnu    | 32-bit Linux (kernel 3.2+, glibc 2.17+) |
-| aarch64-unknown-linux-gnu | ARM64 Linux (kernel 4.1, glibc 2.17+) 1 |
-| x86_64-pc-windows-msvc    | 64-bit MSVC (Windows 7+) 2              |
-| x86_64-pc-windows-gnu     | 64-bit MinGW (Windows 7+) 2             |
-| i686-pc-windows-msvc      | 32-bit MSVC (Windows 7+) 2              |
-| i686-pc-windows-gnu       | 32-bit MinGW (Windows 7+) 2             |
-| x86_64-apple-darwin       | 64-bit macOS (10.7+, Lion+)             |
+| `x86_64-unknown-linux-gnu`  | 64-bit Linux (kernel 3.2+, glibc 2.17+) |
+| `i686-unknown-linux-gnu`    | 32-bit Linux (kernel 3.2+, glibc 2.17+) |
+| `aarch64-unknown-linux-gnu` | ARM64 Linux (kernel 4.1, glibc 2.17+) 1 |
+| `x86_64-pc-windows-msvc`    | 64-bit MSVC (Windows 7+) 2              |
+| `x86_64-pc-windows-gnu`     | 64-bit MinGW (Windows 7+) 2             |
+| `i686-pc-windows-msvc`      | 32-bit MSVC (Windows 7+) 2              |
+| `i686-pc-windows-gnu`       | 32-bit MinGW (Windows 7+) 2             |
+| `x86_64-apple-darwin`       | 64-bit macOS (10.7+, Lion+)             |
 </code>
 
 and [Install](#floppy_disk-install)
@@ -102,7 +102,13 @@ Pretty output example:
 }
 ```
 
-## 📝 License
+## :twisted_rightwards_arrows: Alternatives
+
+- [jq](https://github.com/stedolan/jq) (made in C for JQ language)
+- [jfq](https://github.com/blgm/jfq) (made in JavaScript to JSONata)
+- [jql](https://github.com/yamafaktory/jql) (made in Rust to A JSON Query Language)
+
+## :page_with_curl: License
 
 MIT
 
