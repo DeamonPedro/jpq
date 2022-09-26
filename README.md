@@ -52,14 +52,14 @@ jpq -V
 jpq [OPTIONS] <JSONPATH_QUERY>
 ```
 
-### Options
+### :gear: Options
 
 - `-f, --file <FILE>` Input JSON file
 - `-h, --help` Print help information
 - `-p, --pain-text` Force plain text output
 - `-V, --version` Print version information
 
-### Input
+### :arrow_backward: Input
 
 - File input with `-f`
 
@@ -73,7 +73,7 @@ jpq -f file.json '$.key1.key2'
 cat file.json | jpq '$.key1.key2'
 ```
 
-### Output
+### :arrow_forward: Output
 
 You can force output plain text with the flag `-p` (pretty output enabled by default)
 
@@ -96,3 +96,9 @@ Pretty output example:
   }
 }
 ```
+
+## 📝 Licença
+
+MIT
+
+**Free Software, Hell Yeah!**
